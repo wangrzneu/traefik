@@ -43,6 +43,7 @@ import (
 	"github.com/traefik/traefik/v2/pkg/types"
 	"github.com/traefik/traefik/v2/pkg/version"
 	"github.com/vulcand/oxy/roundrobin"
+	_ "go.uber.org/automaxprocs"
 )
 
 func main() {
